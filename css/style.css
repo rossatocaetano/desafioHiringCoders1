@@ -1,0 +1,194 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: #0d293c;
+    color: #eeeeee;
+    padding: 2.5% 10%;
+}
+
+.logo {
+    margin: 20px 0;
+    font-size: 10em;
+    font-weight: 900;
+    font-style:italic;
+}
+
+.slogan {
+    font-size: 1.5em;
+}
+
+.slogan strong {
+    font-style: italic;
+}
+
+.advice {
+    background: #bbbbbb;
+    padding: 2% 10%;
+    color:rgb(131, 15, 15);
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;    
+}
+
+.form-background {
+    background-image: linear-gradient(#bbbbbb, #ffffff);
+}
+
+
+.form-background h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+form {
+    padding: 20px 10px;
+    margin: 1em auto;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    width: 40%;
+    background:#0d293c;
+}
+
+form label, form input-form {
+    color: white;
+    display: block;
+    margin: 1em 0;
+    font-size: 1.5em;
+}
+
+.input-form {
+    width: 90%;
+    height: 2.5em;
+    border-radius: 20px;
+}
+
+.enviar {
+    width: 40%;
+    height: 2em;
+    margin: 2.5em auto;
+    font-size: 1.4em;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.produtos {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.produtos li {
+    font-size: 1.5em;
+    display: inline-block;
+    width: 10em;
+    height: 15em;
+    margin: 1em;
+    padding: 3em;
+    border: 2px solid #bbbbbb;
+    border-radius: 20px;
+
+}
+
+.list-content {
+    margin: 0.8em;
+}
+
+.produtos h4 {
+    font-weight: bold;
+}
+
+.produtos img {
+    width: 8em;
+    height: 8em;
+}
+
+.produtos li strong {
+   text-decoration: line-through;
+}
+
+footer {
+    background: #0d293c;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+footer p {
+    font-size: 1em;
+    margin: 1em;
+}
+
+footer p strong {
+    font-style:italic;
+}
+
+
+@media (max-width: 480px) {  
+    header {
+        width: 100%;
+        padding: 1em 1em 1.5em 1em;
+        
+    }
+    
+    .logo {
+        font-size: 3em;
+    }
+
+    .slogan {
+        font-size: 1em;
+    }
+
+    .advice {
+        padding: 1em 1em;
+    }
+
+    .form-background h3 {
+        font-size: 1.1em;
+    }
+
+    form {
+        padding: 0.5em 1.25em;
+        width: 65%;
+        margin-bottom: 1.75em;
+    }
+
+    form label, form input-form {
+        margin: 0.75em 0;
+        font-size: 1em;
+    }
+
+    .enviar{
+        width: 40%;
+        height: 2em;
+        margin:1.5em 0;
+        font-size:1.1em;
+    }
+
+    .produtos {
+        text-align: center;
+        margin: 0em 0em 1em 0em;
+    }
+    
+    .produtos li {
+        font-size: 1em;
+        display: block;
+        width: 75%; 
+        height: auto;
+        margin: 1em auto 1em auto;
+        padding: 0em;
+
+    
+    }
+
+    footer {
+        margin-top: 2em;
+        font-size: 0.7em;
+        padding: 0.5em 1em;
+    }  
+}
+    
